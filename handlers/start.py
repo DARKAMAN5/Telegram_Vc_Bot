@@ -24,11 +24,12 @@ async def start(_, message: Message):
         
 @Client.on_message(filters.command(["start", "start@ALEXAMUSIC_ROBOT"]) & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
+    await message.reply_photo("https://te.legra.ph/file/9ee01453fc404013fabf1.jpg")
     await message.reply_text(
         text="**➮ **ɖǟʀӄӼʍʊֆɨƈ ֆʏֆȶɛʍ ωօʀӄɨռɢ Fιɳҽ**
-        ➮ **ᴢᴀɪᴅ ᴠᴇʀꜱɪᴏɴ : 1.0 Lҽƚҽʂƚ**
-        ➮ **ᴍʏ ᴏᴡɴᴇʀ : [{OWNER_NAME}](https://t.me/DARKAMANCHANNEL)**
-        ➮ **ꜱᴇʀᴠɪᴄᴇ ᴜᴘᴛɪᴍᴇ : `{uptime}`**
+        ➮ **ᴅᴀʀᴋxᴍᴜsɪᴄ ᴠᴇʀꜱɪᴏɴ : 1.0 Lҽƚҽʂƚ**
+        ➮ **ᴍʏ ᴏᴡɴᴇʀ : [ᴏᴡɴᴇʀ](https://t.me/DARKAMANCHANNEL)**
+        ➮ **ᴘʏʀᴏ ᴠᴇʀsɪᴏɴ : `1.2.9`**
           **𝚃𝙷𝙰𝙽𝙺𝚂 𝙵𝙾𝚁 𝚄𝚂𝙸𝙽𝙶 𝙳𝙰𝚁𝙺𝚇𝙼𝚄𝚂𝙸𝙲 𝙱𝙾𝚃𝚂 ♥️**",
         reply_markup=InlineKeyboardMarkup(
             [[
@@ -44,6 +45,7 @@ async def gstart(_, message: Message):
 
 @Client.on_message(filters.command(["cmdlist", "start@ALEXAMUSIC_ROBOT"]) & filters.private & ~filters.channel)
 async def cmdlist(_, message: Message):
+    await message.reply_photo("https://te.legra.ph/file/9ee01453fc404013fabf1.jpg")
     await message.reply_text(
         text="""**𝙰𝙻𝙴𝚇𝙰 𝙼𝚄𝚂𝙸𝙲: Help Menu**
 
