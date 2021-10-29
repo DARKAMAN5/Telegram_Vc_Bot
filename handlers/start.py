@@ -26,11 +26,7 @@ async def start(_, message: Message):
 async def gstart(_, message: Message):
     await message.reply_photo("https://te.legra.ph/file/9ee01453fc404013fabf1.jpg")
     await message.reply_text(
-        text="""**➮ **ɖǟʀӄӼʍʊֆɨƈ ֆʏֆȶɛʍ ωօʀӄɨռɢ Fιɳҽ
-         ➮  ᴅᴀʀᴋxᴍᴜsɪᴄ ᴠᴇʀꜱɪᴏɴ : 1.0 Lҽƚҽʂƚ
-         ➮  ᴍʏ ᴏᴡɴᴇʀ : [ᴏᴡɴᴇʀ](https://t.me/DARKAMANCHANNEL)**
-         ➮  ᴘʏʀᴏ ᴠᴇʀsɪᴏɴ : 1.2.9 **
-            𝚃𝙷𝙰𝙽𝙺𝚂 𝙵𝙾𝚁 𝚄𝚂𝙸𝙽𝙶 𝙳𝙰𝚁𝙺𝚇𝙼𝚄𝚂𝙸𝙲 𝙱𝙾𝚃𝚂 ♥️**""",
+        text="""**➮ **ɖǟʀӄӼʍʊֆɨƈ**""",
         reply_markup=InlineKeyboardMarkup(
             [[
             InlineKeyboardButton(text="🖱️ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 🖱️", url="https://t.me/DARKAMANSUPPORT")
