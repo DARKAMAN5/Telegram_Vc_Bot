@@ -25,10 +25,18 @@ async def start(_, message: Message):
 @Client.on_message(filters.command(["start", "start@ALEXAMUSIC_ROBOT"]) & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
     await message.reply_text(
-        text="**𝙰𝙻𝙴𝚇𝙰 𝙼𝚄𝚂𝙸𝙲 𝙱𝙾𝚃 𝙸𝚂 𝙾𝙽𝙻𝙸𝙽𝙴 **",
+        text="**➮ **ɖǟʀӄӼʍʊֆɨƈ ֆʏֆȶɛʍ ωօʀӄɨռɢ Fιɳҽ**
+        ➮ **ᴢᴀɪᴅ ᴠᴇʀꜱɪᴏɴ : 1.0 Lҽƚҽʂƚ**
+        ➮ **ᴍʏ ᴏᴡɴᴇʀ : [{OWNER_NAME}](https://t.me/DARKAMANCHANNEL)**
+        ➮ **ꜱᴇʀᴠɪᴄᴇ ᴜᴘᴛɪᴍᴇ : `{uptime}`**
+          **𝚃𝙷𝙰𝙽𝙺𝚂 𝙵𝙾𝚁 𝚄𝚂𝙸𝙽𝙶 𝙳𝙰𝚁𝙺𝚇𝙼𝚄𝚂𝙸𝙲 𝙱𝙾𝚃𝚂 ♥️**",
         reply_markup=InlineKeyboardMarkup(
             [[
-            InlineKeyboardButton(text="⚡𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿⚡", url="https://t.me/DARKAMANSUPPORT")
+            InlineKeyboardButton(text="🖱️ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 🖱️", url="https://t.me/DARKAMANSUPPORT")
+            ]]
+        reply_markup=InlineKeyboardMarkup(
+            [[
+            InlineKeyboardButton(text="⚡ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ⚡", url="https://t.me/DARKAMANCHANNEL")
             ]]
         )
     )
