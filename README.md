@@ -7,4 +7,4 @@
  
 ### SᴇSɪᴏɴ Sᴛʀɪɴɢ
 
-[![Run on Repl.it](https://repl.it/badge/github/DARKAMAN5/AMAN-GUJJAR-MUSIC)](https://repl.it/@DARKAMAN5/GenerateStringSession)
+[![Run on Repl.it](https://repl.it/badge/github/DARKAMAN5/AMAN-GUJJAR-MUSIC)](https://repl.it/@DARKAMAN5/AMAN-GUJJAR-MUSIC)
